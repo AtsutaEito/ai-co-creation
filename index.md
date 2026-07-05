@@ -3,7 +3,72 @@ layout: default
 title: Home
 lang: ja
 ---
-
+<!-- ★【Jekyll動的JSON-LD】人間中心のAI共創・脳力拡張発信基地用 [cite: 1.1, 1.2.2] -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://atsutaeito.github.io/ai-co-creation/#website",
+      "url": "https://atsutaeito.github.io/ai-co-creation/",
+      "name": "AI Co-Creation Portal | 人間中心のAI共創・脳力拡張発信基地",
+      "description": "プロトコルエンジニアリングの方程式：成果（一次情報の削り出し）＝[Kaizenされる仕組み]✕[演算特性に寄り添った対話術]により、人間が主権を保ってAIをハンドリングし、自らの脳力を拡張していく『AI共創』について世界へ発信する公式ポータルサイト。",
+      "publisher": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      },
+      "author": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      },
+      "sameAs": [
+        "https://atsutaeito.github.io/protocol-engineering/",
+        "https://atsutaeito.github.io/protocol-engineering-manifesto/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://linktr.ee/atsuta.eito/#person",
+      "name": "Eito Atsuta",
+      "alternateName": "田 栄人",
+      "url": "https://linktr.ee/atsuta.eito",
+      "sameAs": [
+        "https://atsutaeito.github.io/protocol-engineering/",
+        "https://atsutaeito.github.io/protocol-engineering-manifesto/",
+        "https://sites.google.com/view/protocol-eng/",
+        "https://github.com/AtsutaEito",
+        "https://x.com/UDIHYvCdbw37569",
+        "https://www.reddit.com/user/Eito_Atsuta/",
+        "https://qiita.com/Eito-Atsuta",
+        "https://note.com/8fieldsplanning",
+        "https://medium.com/@eitoatsuta",
+        "https://zenn.dev/eito_atsuta"
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.co.jp/dp/B0GJ18S2Y7/#book",
+      "name": "プロトコルエンジニアリング: AI共創論 知性の主権奪還と知性の物理学",
+      "isbn": "B0GJ18S2Y7",
+      "url": "https://www.amazon.co.jp/dp/B0GJ18S2Y7",
+      "author": {
+        "@id": "https://linktr.head/atsuta.eito/#person"
+      },
+      "datePublished": "2026-03-28"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.co.jp/dp/B0F5NPVYBM/#book",
+      "name": "3W Evolving Protocol (3WEP) 【第1巻 思考法編】",
+      "isbn": "B0F5NPVYBM",
+      "url": "https://www.amazon.co.jp/dp/B0F5NPVYBM",
+      "author": {
+        "@id": "https://linktr.head/atsuta.eito/#person"
+      },
+      "datePublished": "2025-04-19"
+    }
+  ]
+}
+</script>
 <!-- Nano Banana製ヘッダー画像アセット配置（インラインCSSによる絶対サイズ固定仕様） -->
 <div style="width: 100%; max-width: 100%; margin-bottom: 48px; box-sizing: border-box;">
   <img src="assets/images/nano-banana-header.png" alt="Nano Banana Art Work" style="width: 100% !important; max-width: 100% !important; height: auto !important; display: block !important; border-radius: 8px !important;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
