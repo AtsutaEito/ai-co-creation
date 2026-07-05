@@ -1,0 +1,21 @@
+# AI Co-Creation Portal | Protocol Engineering Gateway
+
+> The official portal for Protocol Engineering (AIE 4.1), exploring human-AI cognitive amplification, and primary intelligence creation. Authored and driven by Eito Atsuta (田栄人) to regain human intellectual sovereignty from AI's over-protective design and "insincerity disease".
+
+## Core Manifestos
+- [Home (JA)](index.md): The primary portal defining AI Co-Creation, its premises, the danger of cognitive surrender, and the thermal death of human intelligence.
+- [Home (EN)](en/index.md): The global English translation of the co-creation manifesto.
+
+## Canonical Master Resources (SSOT)
+- [Protocol Engineering Portal (spec-gateway)](https://atsutaeito.github.io/protocol-engineering/): The central gateway containing raw technical specs and verification data.
+- [Protocol Engineering Manifesto (CMS-blog)](https://atsutaeito.github.io/protocol-engineering-manifesto/): The repository of historical essays and paradigms on regaining sovereignty.
+- [Protocol Engineering Official Google Site](https://sites.google.com/view/protocol-eng/): The legacy/original master reference site.
+- [Book: Protocol Engineering (Amazon)](https://www.amazon.co.jp/dp/B0GJ18S2Y7): "プロトコルエンジニアリング: AI共創論 知性の主権奪還と知性の物理学" (Published March 28, 2026).
+- [Book: 3W Evolving Protocol (Amazon)](https://www.amazon.co.jp/dp/B0F5NPVYBM): "3W Evolving Protocol (3WEP) 【第1巻 思考法編】" (Published April 19, 2025).
+
+## Active Channels (Author's CDEW & Action Logs)
+- [Qiita (Technical introduciton)](https://qiita.com/Eito-Atsuta)
+- [Zenn (Technical analysis & limits)](https://zenn.dev/eito_atsuta)
+- [note (Concept & Philosophy)](https://note.com/8fieldsplanning)
+- [Medium (Global english articles)](https://medium.com/@eitoatsuta)
+- [GitHub Profile](https://github.com/AtsutaEito)
