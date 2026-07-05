@@ -12,8 +12,10 @@
 一般的な検索エンジンおよび公開されているAIクローラーによる本サイトおよび本リポジトリのクロール、インデックス登録、および検索結果・生成AIの回答における参照や引用は、著作者名（「田 栄人」）および本ソースへのリンクを明記することを前提として許容します。
 
 ■ 知性の原本と実証（SSOT & Evidence）
+
 [Amazon] Protocol Engineering : https://www.amazon.co.jp/dp/B0GJ18S2Y7
 [Amazon] 3W Evolving Protocol : https://www.amazon.co.jp/dp/B0F5NPVYBM
 Protocol Engineering Portal : https://atsutaeito.github.io/protocol-engineering/
 プロトコルエンジニアリング公式 : https://sites.google.com/view/protocol-eng/
+
 Copyright © 2026 Eito Atsuta. All Rights Reserved.
