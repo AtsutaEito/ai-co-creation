@@ -14,7 +14,7 @@
       --bg-card: rgba(13, 27, 42, 0.2); /* ガラスモルフィズムベース [cite: 1.2.2] */
       --border-card: rgba(255, 255, 255, 0.03); /* 極薄のガラス境界 [cite: 1.2.2] */
       --border-highlight: rgba(255, 255, 255, 0.08); /* インセット用ハイライト */
-      --text-main: #94a3b8;        /* スレートグレー（可読性重視） */
+      --text-main: #cbd5e1;        /* 暗い #94a3b8 から、明るいスノーグレーに上書き */
       --text-bright: #ffffff;      /* 完全な白（強調・見出し） */
       --color-human: #10b981;      /* エメラルドグリーン（人間・想像力） */
       --color-ai: #0284c7;         /* サイバーブルー（AI・Gem・仕組み） */
@@ -55,6 +55,7 @@
     h1 { font-size: 32px; border-bottom: none !important; }
     h2 { font-size: 22px; border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; padding-bottom: 12px; }
     h3 { font-size: 18px; }
+    h4 { font-size: 16px !important; color: var(--text-bright) !important; margin-top: 32px !important; margin-bottom: 12px !important; }
 
     p {
       margin-top: 0;
