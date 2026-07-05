@@ -6,7 +6,7 @@ lang: ja
 
 <!-- Nano Banana製ヘッダー画像アセット配置（安全隔離空間） -->
 <div style="width: 100%; margin-bottom: 48px;">
-  <img src="{{ '/assets/images/nano-banana-header.png' | relative_url }}" alt="Nano Banana Art Work" class="nano-banana-header" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+  <img src="src="assets/images/nano-banana-header.png" alt="Nano Banana Art Work" class="nano-banana-header" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
   <div style="display: none; width: 100%; height: 200px; border: 1px dashed rgba(255, 255, 255, 0.1); border-radius: 8px; align-items: center; justify-content: center; color: #94a3b8; font-size: 13px; font-weight: 600;">[ Nano Banana Header Image Area ]</div>
 </div>
 
