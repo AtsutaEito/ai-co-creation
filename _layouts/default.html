@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | AI Co-Creation Portal</title>
+  
+  <style>
+    /* ==========================================================
+       DESIGN SYSTEM: CYBER MINIMALISM (DARK) [cite: 1.2.2, 1.2.6]
+       ========================================================== */
+    :root {
+      --bg-main: #090d16;          /* 深淵なスレートダーク [cite: 1.2.2] */
+      --bg-card: rgba(13, 27, 42, 0.2); /* ガラスモルフィズムベース [cite: 1.2.2] */
+      --border-card: rgba(255, 255, 255, 0.03); /* 極薄のガラス境界 [cite: 1.2.2] */
+      --border-highlight: rgba(255, 255, 255, 0.08); /* インセット用ハイライト */
+      --text-main: #94a3b8;        /* スレートグレー（可読性重視） */
+      --text-bright: #ffffff;      /* 完全な白（強調・見出し） */
+      --color-human: #10b981;      /* エメラルドグリーン（人間・想像力） */
+      --color-ai: #0284c7;         /* サイバーブルー（AI・Gem・仕組み） */
+    }
+
+    /* 全体構造の固定 */
+    body, html {
+      background-color: var(--bg-main) !important;
+      color: var(--text-main) !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+      line-height: 1.8 !important;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 贅沢な余白を持つコンテナ */
+    .site-container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 64px 24px;
+      width: 100%;
+      box-sizing: border-box;
+      flex: 1;
+    }
+
+    /* タイポグラフィのジャンプ比と余白規律 */
+    h1, h2, h3, h4 {
+      color: var(--text-bright) !important;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+    h1 { font-size: 32px; border-bottom: none !important; }
+    h2 { font-size: 22px; border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important; padding-bottom: 12px; }
+    h3 { font-size: 18px; }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 24px;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+    }
+
+    /* ---------------------------------------------------------
+       NAV & LANG SWITCHER SYSTEM [cite: 1.2.2]
+       --------------------------------------------------------- */
+    .pe-nav {
+      border-bottom: 1px solid var(--border-card);
+      padding: 16px 24px;
+      background: rgba(9, 13, 22, 0.8);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .pe-nav-links {
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+    }
+
+    .pe-nav-links a {
+      color: var(--text-main);
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    
+    .pe-nav-links a:hover {
+      color: var(--text-bright);
+    }
+
+    .pe-lang-switcher {
+      margin-left: 24px;
+      padding-left: 24px;
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: bold;
+    }
+
+    .pe-lang-switcher a {
+      color: var(--text-main) !important;
+      text-decoration: none;
+    }
+    .pe-lang-switcher a:hover {
+      color: var(--text-bright) !important;
+    }
+
+    /* ---------------------------------------------------------
+       FOOTER SYSTEM (原本と実証テーブル ✕ コピーライト中央寄せ) [cite: 1.2.2]
+       --------------------------------------------------------- */
+    .pe-footer {
+      border-top: 1px solid var(--border-card);
+      padding: 48px 24px;
+      background: rgba(9, 13, 22, 0.4);
+      font-size: 13px;
+    }
+
+    .pe-footer-content {
+      max-width: 880px;
+      margin: 0 auto;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .pe-footer-links-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .pe-footer-links-container a {
+      color: var(--text-main);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .pe-footer-links-container a:hover {
+      color: var(--text-bright);
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    }
+
+    .pe-copyright {
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      padding-top: 24px;
+      font-size: 12px;
+      color: #4b5563;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ナビゲーションバー（JP/EN切り替え機能内包） [cite: 1.2.2] -->
+  <nav class="pe-nav">
+    <div style="font-weight: bold; color: var(--text-bright); font-size: 14px; letter-spacing: 0.05em;">AI CO-CREATION</div>
+    <div class="pe-nav-links">
+      <a href="{{ '/' | relative_url }}">HOME</a>
+      <a href="#" style="color: #4b5563 !important; cursor: not-allowed;">PHILOSOPHY</a>
+      <a href="#" style="color: #4b5563 !important; cursor: not-allowed;">SPECS</a>
+      
+      <!-- シームレス多言語スイッチ [cite: 1.2.2] -->
+      <div class="pe-lang-switcher">
+        {% if page.lang == "en" %}
+          {% assign jp_url = page.url | replace: "/en/", "/" %}
+          <a href="{{ jp_url | relative_url }}">JP</a>
+          <span style="color: var(--text-bright); margin-left: 8px;">EN</span>
+        {% else %}
+          <span style="color: var(--text-bright); margin-right: 8px;">JP</span>
+          {% if page.url == "/" %}
+            {% assign en_url = "/en/" %}
+          {% else %}
+            {% assign en_url = "/en" | append: page.url %}
+          {% endif %}
+          <a href="{{ en_url | relative_url }}">EN</a>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+
+  <!-- メインコンテナ -->
+  <main class="site-container">
+    {{ content }}
+  </main>
+
+  <!-- 共通フッター（知性の原本と実証） [cite: 1.2.2] -->
+  <footer class="pe-footer">
+    <div class="pe-footer-content">
+      <div style="font-weight: bold; color: var(--text-bright); margin-bottom: 16px; font-size: 14px; letter-spacing: 0.05em;">■ 知性の原本と実証（SSOT & Evidence）</div>
+      
+      <div class="pe-footer-links-container">
+        <div>[Amazon] Protocol Engineering : <a href="https://www.amazon.co.jp/dp/B0GJ18S2Y7" target="_blank" rel="noopener">https://www.amazon.co.jp/dp/B0GJ18S2Y7</a></div>
+        <div>[Amazon] 3W Evolving Protocol : <a href="https://www.amazon.co.jp/dp/B0F5NPVYBM" target="_blank" rel="noopener">https://www.amazon.co.jp/dp/B0F5NPVYBM</a></div>
+        <div>Protocol Engineering Portal : <a href="https://atsutaeito.github.io/protocol-engineering/" target="_blank" rel="noopener">https://atsutaeito.github.io/protocol-engineering/</a></div>
+        <div>プロトコルエンジニアリング公式 : <a href="https://sites.google.com/view/protocol-eng/" target="_blank" rel="noopener">https://sites.google.com/view/protocol-eng/</a></div>
+      </div>
+      
+      <!-- コピーライトのみを完全中央寄せ [cite: 1.2.2] -->
+      <div class="pe-copyright">
+        Copyright © 2026 Eito Atsuta. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
