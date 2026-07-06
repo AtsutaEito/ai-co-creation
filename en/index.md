@@ -3,7 +3,7 @@ layout: default
 title: Home
 lang: en
 ---
-
+</script>
 <!-- Nano Banana製ヘッダー画像アセット配置（インラインCSSによる絶対サイズ固定仕様） -->
 <div style="width: 100%; max-width: 100%; margin-bottom: 48px; box-sizing: border-box;">
   <img src="assets/images/nano-banana-header.png" alt="Nano Banana Art Work" style="width: 100% !important; max-width: 100% !important; height: auto !important; display: block !important; border-radius: 8px !important;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
