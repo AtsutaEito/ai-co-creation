@@ -42,7 +42,7 @@ The upper boundary of these two pillars dictates the absolute limit of co-creati
 
 ## 3. [Introduction] : [The Journey from 3WEP to Protocol Engineering]
 
-Quite some time has passed since I published *3W Evolving Protocol (3WEP)*, built entirely in natural language, in April 2024.
+Quite some time has passed since I published *3W Evolving Protocol (3WEP)*, built entirely in natural language, in April 2025.
 
 During this period, as I continuously confronted the side effects brought about by the evolution of AI, I devised a methodology called "Protocol Engineering." Putting this method to the test, I took on the challenge of writing an e-book. After a rigorous process of 1 million tokens and 268 round-trip turns, I published *Protocol Engineering: AI Co-Creation Theory* on March 28, 2026. Here is what I have come to realize.
 
