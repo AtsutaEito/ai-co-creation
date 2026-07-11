@@ -3,6 +3,11 @@ layout: default
 title: "知性保護"
 lang: ja
 ---
+<!-- Nano Banana製ヘッダー画像アセット配置（インラインCSSによる絶対サイズ固定仕様） [cite: 1.2.2] -->
+<div style="width: 100%; max-width: 100%; margin-bottom: 48px; box-sizing: border-box;">
+  <img src="{{ '/assets/images/intelligence-protection.png' | relative_url }}" alt="知性保護" style="width: 100% !important; max-width: 100% !important; height: auto !important; display: block !important; border-radius: 8px !important;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+  <div style="display: none; width: 100%; height: 200px; border: 1px dashed rgba(255, 255, 255, 0.1); border-radius: 8px; align-items: center; justify-content: center; color: #94a3b8; font-size: 13px; font-weight: 600;">[ 知性保護 ヘッダー画像 ]</div>
+</div>
 
 # 知性保護 —— なぜAIエージェントの自律化は危険か
 ### 4階層の不整合を踏まえた「知性主権」防衛のための設計思想
