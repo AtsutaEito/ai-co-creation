@@ -174,12 +174,16 @@
 </head>
 <body>
 
-  <!-- ナビゲーションバー（JP/EN切り替え機能内包） [cite: 1.2.2] -->
+<!-- ナビゲーションバー（JP/EN切り替え機能内包） [cite: 1.2.2] -->
   <nav class="pe-nav">
     <div style="font-weight: bold; color: var(--text-bright); font-size: 14px; letter-spacing: 0.05em;">AI CO-CREATION</div>
     <div class="pe-nav-links">
       <a href="{{ '/' | relative_url }}">HOME</a>
-      <a href="#" style="color: #4b5563 !important; cursor: not-allowed;">PHILOSOPHY</a>
+      {% if page.lang == "en" %}
+        <a href="#" style="color: #4b5563 !important; cursor: not-allowed;">PHILOSOPHY</a>
+      {% else %}
+        <a href="{{ '/intelligence-protection' | relative_url }}">知性保護</a>
+      {% endif %}
       <a href="#" style="color: #4b5563 !important; cursor: not-allowed;">SPECS</a>
       
       <!-- シームレス多言語スイッチ [cite: 1.2.2] -->
