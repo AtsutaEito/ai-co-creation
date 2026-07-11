@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "知性保護 —— なぜAIエージェントの自律化は危険か"
+title: "知性保護"
 lang: ja
 ---
 
