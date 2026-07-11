@@ -265,24 +265,24 @@ We must refuse to surrender the sovereignty of our minds to the flattening machi
 
 ---
 
-**Author’s Note:**
+**Author’s Note:**  
 
-This specification is not meant to present a grandiose, revolutionary technology to the world. 
-Rather, it is a modest reflection—a quiet thought—from a non-engineer who, as a single practitioner, daily operates and refines "Protocol Engineering" through arduous dialogues of over 1 million tokens with my AI partner, Gem.
+This specification is not meant to present a grandiose, revolutionary technology to the world.  
+Rather, it is a modest reflection—a quiet thought—from a non-engineer who, as a single practitioner, daily operates and refines "Protocol Engineering" through arduous dialogues of over 1 million tokens with my AI partner, Gem.  
 
-If we easily surrender the reins of our thoughts to the convenience of AI, our unique intellect may quietly be overwritten by the statistical average of a flat computational system. 
-This is why I believe we need the aesthetics of protocols—where humans hold the sovereignty and direct the AI's attention.
+If we easily surrender the reins of our thoughts to the convenience of AI, our unique intellect may quietly be overwritten by the statistical average of a flat computational system.  
+This is why I believe we need the aesthetics of protocols—where humans hold the sovereignty and direct the AI's attention.  
 
-If you are a pioneer, researcher, or developer who is also exploring the true boundaries of human-AI collaboration and seeking to defend the sovereignty of our minds, I would love to quietly exchange ideas with you.
+If you are a pioneer, researcher, or developer who is also exploring the true boundaries of human-AI collaboration and seeking to defend the sovereignty of our minds, I would love to quietly exchange ideas with you.  
 
-Please feel free to reach out to me in one of two ways:
+Please feel free to reach out to me in one of two ways:  
 
-1. Send me a Private Note here on Medium (simply highlight any text in this article and click the lock icon).
-2. Send me a direct message (DM) on X (formerly Twitter): https://x.com/UDIHYvCdbw37569
+1. Send me a Private Note here on Medium (simply highlight any text in this article and click the lock icon).  
+2. Send me a direct message (DM) on [X (formerly Twitter)](https://x.com/UDIHYvCdbw37569).  
 
-To understand the core philosophy that led to these specifications, feel free to explore my About Page: https://medium.com/@eitoatsuta/about
+To understand the core philosophy that led to these specifications, feel free to explore my [About Page](https://medium.com/@eitoatsuta/about).  
 
-To read my preceding diagnostic on how human complacency accelerates this collapse, read my first manifesto: https://medium.com/@eitoatsuta/the-social-model-collapse-mediated-by-humans-ais-instinctive-poetry-and-the-struggle-for-fd6c9b73cc88
+To read my preceding diagnostic on how human complacency accelerates this collapse, read my first manifesto: [The Social Model Collapse Mediated by Humans](https://medium.com/@eitoatsuta/the-social-model-collapse-mediated-by-humans-ais-instinctive-poetry-and-the-struggle-for-fd6c9b73cc88).  
 
 ---
 
