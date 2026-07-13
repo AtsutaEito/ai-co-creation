@@ -75,7 +75,7 @@ lang: ja
   <div style="display: none; width: 100%; height: 200px; border: 1px dashed rgba(255, 255, 255, 0.1); border-radius: 8px; align-items: center; justify-content: center; color: #94a3b8; font-size: 13px; font-weight: 600;">[ Nano Banana Header Image Area ]</div>
 </div>
 
-[最上部にDocswellのスライドがあります。](#docswell-slide)
+[最下部にDocswellのスライドがあります。](#docswell-slide)
 
 ## 1. [AI共創] : [脳内イメージを言語化し独自の一次情報を創造する本質]
 
