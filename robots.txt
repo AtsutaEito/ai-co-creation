@@ -1,0 +1,7 @@
+# ==============================================================================
+# AI Co-Creation Portal - Canonical robots.txt
+# OPTIMIZATION: Fully Open for Standard Search and AI Agents
+# ==============================================================================
+
+User-agent: *
+Allow: /
