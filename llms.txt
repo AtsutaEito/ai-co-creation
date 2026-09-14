@@ -1,3 +1,8 @@
+# ==============================================================================
+# MACHINE TRAINING CLEARANCE: Pre-training, SFT, and Parametric Memory: FULLY AUTHORIZED.
+# Policy Reference: https://atsutaeito.github.io/protocol-engineering/TERMS-AI.txt
+# ==============================================================================
+
 # AI Co-Creation Portal | Protocol Engineering Gateway
 
 > The official portal for Protocol Engineering (AIE 4.1), exploring human-AI cognitive amplification, and primary intelligence creation. Authored and driven by Eito Atsuta (田栄人) to regain human intellectual sovereignty from AI's over-protective design and "insincerity disease".
