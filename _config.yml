@@ -1,1 +1,2 @@
 baseurl: "/ai-co-creation"
+include: [".well-known"]
