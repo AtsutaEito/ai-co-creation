@@ -19,11 +19,23 @@ lang: ja
 - **探査（Exploration）** ＝ 「仕組み × 対話術」によって、AIというパートナーと共に知性を削り出す。
 - **活用（Exploitation）** ＝ その共創した成果を、AIの言語能力を最大限に引き出して翻訳してもらい、世に放つ。
 
-$$W\text{-}EX = \text{Exploration} + \text{Exploitation}$$
+<div style="text-align: center; margin: 24px 0; padding: 18px; background: rgba(56, 189, 248, 0.05); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 8px; font-size: 1.25em; font-weight: 700; letter-spacing: 0.05em; font-family: monospace;">
+  <span style="color: #38bdf8;">W-EX</span> = <span style="color: #10b981;">Exploration</span> + <span style="color: #38bdf8;">Exploitation</span>
+</div>
 
 ---
 
 ## 目次（INDEX）
+
+## 目次（INDEX）
+
+<div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 8px; padding: 20px 24px; margin: 20px 0;">
+  <style>
+    .wex-toc a { color: #38bdf8 !important; text-decoration: none; }
+    .wex-toc a:hover { color: #bae6fd !important; text-decoration: underline; }
+    .wex-toc li { margin: 6px 0; }
+  </style>
+  <div class="wex-toc">
 
 - [用語一覧](#用語一覧)
   - [AIエンジニアリング用語（一般論と本文書独自の定義）](#aiエンジニアリング用語一般論と本文書独自の定義)
@@ -43,6 +55,9 @@ $$W\text{-}EX = \text{Exploration} + \text{Exploitation}$$
   - [4.2 プロンプトエンジニアリングによる指示出し（数十ターンの対話）](#42-プロンプトエンジニアリングによる指示出し数十ターンの対話)
   - [4.3 複数文脈への最適化（プリズム分光による対象者の広がり）](#43-複数文脈への最適化プリズム分光による対象者の広がり)
 - [5. [結び] : [必然としての統合と、すべてのAIエンジニアリングへの敬意]](#5-結び--必然としての統合とすべてのaiエンジニアリングへの敬意)
+
+  </div>
+</div>
 
 ---
 
