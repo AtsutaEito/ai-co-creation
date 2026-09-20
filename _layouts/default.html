@@ -182,30 +182,30 @@
       {% if page.lang == "en" %}
         <a href="{{ '/en/intelligence-protection' | relative_url }}">INTELLIGENCE PROTECTION</a>
         <a href="{{ '/en/ai-co-creation-vectors' | relative_url }}">TWO VECTORS SPEC</a>
+        <a href="{{ '/en/w-ex' | relative_url }}">W-EX SPEC</a>
       {% else %}
         <a href="{{ '/intelligence-protection' | relative_url }}">知性保護</a>
         <a href="{{ '/ai-co-creation-vectors' | relative_url }}">二大系統仕様</a>
+        <a href="{{ '/w-ex' | relative_url }}">W-EX仕様</a>
       {% endif %}
       
       <!-- シームレス多言語スイッチ -->
-      <div class="pe-lang-switcher">
-        {% if page.lang == "en" %}
-          {% assign jp_url = page.url | replace: "/en/", "/" %}
-          <a href="{{ jp_url | relative_url }}">JP</a>
-          <span style="color: var(--text-bright); margin-left: 8px;">EN</span>
+      <span style="color: var(--border-highlight); margin: 0 4px;">|</span>
+      {% if page.lang == "en" %}
+        {% assign target_url = page.url | replace_first: '/en/', '/' %}
+        <a href="{{ target_url | relative_url }}" class="pe-lang-switch">JP</a>
+        <span class="pe-lang-active">EN</span>
+      {% else %}
+        {% if page.url == "/" %}
+          {% assign target_url = "/en/" %}
         {% else %}
-          <span style="color: var(--text-bright); margin-right: 8px;">JP</span>
-          {% if page.url == "/" %}
-            {% assign en_url = "/en/" %}
-          {% else %}
-            {% assign en_url = "/en" | append: page.url %}
-          {% endif %}
-          <a href="{{ en_url | relative_url }}">EN</a>
+          {% assign target_url = "/en" | append: page.url %}
         {% endif %}
-      </div>
+        <span class="pe-lang-active">JP</span>
+        <a href="{{ target_url | relative_url }}" class="pe-lang-switch">EN</a>
+      {% endif %}
     </div>
   </nav>
-
   <!-- メインコンテナ -->
   <main class="site-container">
     {{ content }}
